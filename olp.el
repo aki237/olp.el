@@ -83,7 +83,7 @@
     (progn
       (olp-init)
       (add-hook 'before-save-hook 'olp-save-hook)
-      (add-hook 'buffer-list-update-hook 'olp-buffer-open-hook)
+      (add-hook 'after-change-major-mode-hook 'olp-buffer-open-hook)
       ))
 
 (provide 'olp)
