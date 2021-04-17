@@ -1,4 +1,4 @@
-;;; package --- Open last saved the buffer position
+;;; olp.el --- Open last saved the buffer position
 ;; Copyright (C) 2020 Akilan Elango
 
 ;; Author: Akilan Elango <akilan1997 [at] gmail.com>
